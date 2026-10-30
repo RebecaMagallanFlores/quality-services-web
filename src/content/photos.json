@@ -1,0 +1,13 @@
+{
+  "_instrucciones": "Registro de fotografías. Cada entrada corresponde a public/images/photos/<id>-<ancho>.webp. Fuente: Unsplash, Licencia de Unsplash (https://unsplash.com/license): uso comercial y no comercial gratuito, sin obligación de atribución (se acredita por buena práctica). No permite vender las fotos sin modificaciones ni compilarlas para crear un servicio similar. Verificado el 30 oct 2026 como 'Foto gratuita en Unsplash' (no Unsplash+).",
+  "photos": [
+    { "id": "hero-dusk", "widths": [800, 1280, 2000], "author": "Michael Brown", "profile": "https://unsplash.com/@vettexan", "page": "https://unsplash.com/photos/cUoXTLVFQ9M", "usage": { "en": "Home — slideshow", "es": "Inicio — portada" } },
+    { "id": "hero-villa", "widths": [800, 1280, 2000], "author": "John Fornander", "profile": "https://unsplash.com/@johnfo", "page": "https://unsplash.com/photos/Id7u0EkTjBE", "usage": { "en": "Home — slideshow", "es": "Inicio — portada" } },
+    { "id": "hero-living", "widths": [800, 1280, 2000], "author": "Collov Home Design", "profile": "https://unsplash.com/@collovhome", "page": "https://unsplash.com/photos/4_jQL4JCS98", "usage": { "en": "Home — slideshow", "es": "Inicio — portada" } },
+    { "id": "hero-pool", "widths": [800, 1280, 2000], "author": "Salman Saqib", "profile": "https://unsplash.com/@salmansaqib", "page": "https://unsplash.com/photos/WaC-JFfF21M", "usage": { "en": "Home — slideshow", "es": "Inicio — portada" } },
+    { "id": "about-architecture", "widths": [800, 1400], "author": "Julien Moreau", "profile": "https://unsplash.com/@junoless", "page": "https://unsplash.com/photos/688Fna1pwOQ", "usage": { "en": "About", "es": "Nosotros" } },
+    { "id": "process-kitchen", "widths": [800, 1400], "author": "Cat Han", "profile": "https://unsplash.com/@figmentprints", "page": "https://unsplash.com/photos/VgyN_CWXQVM", "usage": { "en": "How we work", "es": "Cómo trabajamos" } },
+    { "id": "contact-aerial", "widths": [900, 1600], "author": "Tom Rumble", "profile": "https://unsplash.com/@tomrumble", "page": "https://unsplash.com/photos/7lvzopTxjOU", "usage": { "en": "Contact", "es": "Contacto" } },
+    { "id": "notfound-facade", "widths": [900, 1600], "author": "Kir Simakov", "profile": "https://unsplash.com/@kirsimakov", "page": "https://unsplash.com/photos/1y5PkTZOMbQ", "usage": { "en": "Page not found", "es": "Página no encontrada" } }
+  ]
+}

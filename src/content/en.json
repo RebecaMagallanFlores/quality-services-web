@@ -1,0 +1,315 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "languageName": "English",
+
+  "slugs": {
+    "home": "",
+    "about": "about",
+    "services": "services",
+    "process": "how-we-work",
+    "faq": "faq",
+    "contact": "contact",
+    "credits": "photo-credits"
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "process": "How we work",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+
+  "ui": {
+    "skip": "Skip to main content",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "langLabel": "Language",
+    "switchTo": "Ver este sitio en español",
+    "homeLink": "Quality & Services LLC — Home",
+    "logoAlt": "Quality & Services LLC logo",
+    "contactCta": "Contact us",
+    "learnMore": "Learn more",
+    "illustrative": "Illustrative image",
+    "carousel": {
+      "label": "Featured images",
+      "prev": "Previous image",
+      "next": "Next image",
+      "pause": "Pause slideshow",
+      "play": "Play slideshow",
+      "goTo": "Show image {n} of {total}",
+      "slide": "Image {n} of {total}"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "title": "Quality & Services LLC | Real estate with personalized attention",
+      "description": "Quality & Services LLC is a real estate company focused on personalized attention, clear information and consistent follow-through."
+    },
+    "about": {
+      "title": "About us, mission and values | Quality & Services LLC",
+      "description": "Learn who Quality & Services LLC is, how we approach client service, and the mission, vision and values that guide our work."
+    },
+    "services": {
+      "title": "Services | Quality & Services LLC",
+      "description": "How Quality & Services LLC can support you: real estate consultation, guidance through each stage and ongoing communication."
+    },
+    "process": {
+      "title": "How we work | Quality & Services LLC",
+      "description": "Our process in four steps: first contact, understanding your needs, presenting options and staying with you along the way."
+    },
+    "faq": {
+      "title": "Frequently asked questions | Quality & Services LLC",
+      "description": "Answers to common questions about getting started with Quality & Services LLC."
+    },
+    "contact": {
+      "title": "Contact | Quality & Services LLC",
+      "description": "How to get in touch with Quality & Services LLC."
+    },
+    "credits": {
+      "title": "Photo credits | Quality & Services LLC",
+      "description": "Sources, authors and license of the photographs used on this website."
+    },
+    "notFound": {
+      "title": "Page not found | Quality & Services LLC",
+      "description": "The page you are looking for does not exist or has moved."
+    }
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "Real estate · Personalized attention",
+      "title": "Real estate guidance built on quality and trust",
+      "lead": "At Quality & Services LLC we work with each client one-to-one, with clear information and attentive follow-through at every step.",
+      "primary": "Contact us",
+      "secondary": "See how we work"
+    },
+    "slides": [
+      { "image": "hero-dusk", "alt": "Contemporary two-story home with large lit windows at dusk", "position": "50% 60%" },
+      { "image": "hero-villa", "alt": "White modern villa with a pool and outdoor lounge area", "position": "50% 55%" },
+      { "image": "hero-living", "alt": "Bright living room with a leather sofa and floor-to-ceiling windows", "position": "50% 50%" },
+      { "image": "hero-pool", "alt": "Single-story modern home with a pool and lounge chairs", "position": "50% 55%" }
+    ],
+    "intro": {
+      "kicker": "Who we are",
+      "title": "A considered approach to real estate",
+      "body": [
+        "Buying, selling or finding a property is rarely just a transaction. It involves timing, budget, family plans and many questions along the way.",
+        "Quality & Services LLC was built around a simple idea: every client deserves attention, honest information and someone who follows through."
+      ],
+      "link": "About Quality & Services LLC"
+    },
+    "values": {
+      "kicker": "What guides us",
+      "title": "Five commitments in every conversation"
+    },
+    "services": {
+      "kicker": "Services",
+      "title": "How we can support you",
+      "lead": "Every situation is different. These are the areas where we focus our attention.",
+      "link": "View services"
+    },
+    "process": {
+      "kicker": "How we work",
+      "title": "A clear process, from the first conversation",
+      "link": "See the full process"
+    },
+    "cta": {
+      "title": "Let's talk about what you're looking for",
+      "body": "Tell us about your situation and we will let you know how we can help.",
+      "button": "Contact us"
+    }
+  },
+
+  "about": {
+    "kicker": "About us",
+    "title": "Quality & Services LLC",
+    "lead": "A real estate company that puts personal attention, transparency and follow-through at the center of its work.",
+    "image": { "image": "about-architecture", "alt": "Low-angle view of a white residential building against the sky" },
+    "story": {
+      "title": "Who we are",
+      "body": [
+        "Quality & Services LLC is a real estate company. Our name reflects what we want each client to experience: quality in how we work, and service in how we treat people.",
+        "We believe a good real estate experience starts with listening. Before talking about options, we take the time to understand what you need, what matters most to you and what your timing looks like."
+      ]
+    },
+    "approach": {
+      "title": "Our approach to service",
+      "items": [
+        { "title": "One-to-one attention", "text": "You speak with people who know your case and keep track of it." },
+        { "title": "Clear information", "text": "We explain each stage in plain language and answer questions as they come up." },
+        { "title": "Consistent follow-through", "text": "We keep you informed so you always know where things stand." }
+      ]
+    },
+    "mission": {
+      "label": "Mission",
+      "text": "To offer every client attentive and honest real estate support, with clear information and consistent follow-through, so that each decision is made with confidence."
+    },
+    "vision": {
+      "label": "Vision",
+      "text": "To be a real estate company that people trust and recommend for the quality of its service, the clarity of its communication and the care it brings to every relationship."
+    },
+    "valuesTitle": "Our values",
+    "valuesLead": "Five principles that shape how we work with every client."
+  },
+
+  "values": [
+    { "key": "integrity", "title": "Integrity", "text": "We act honestly and tell you what we know — and what we don't." },
+    { "key": "transparency", "title": "Transparency", "text": "We share information openly and explain each step before it happens." },
+    { "key": "commitment", "title": "Commitment", "text": "We follow through on what we agree to and keep you informed along the way." },
+    { "key": "excellence", "title": "Excellence", "text": "We take care with the details, from the first conversation to the last document." },
+    { "key": "attention", "title": "Personalized attention", "text": "We listen first and adapt our support to your situation, not the other way around." }
+  ],
+
+  "services": {
+    "kicker": "Services",
+    "title": "How we can support you",
+    "lead": "Each client arrives with different goals. Our role is to understand them and offer support that fits your situation.",
+    "items": [
+      {
+        "icon": "conversation",
+        "title": "Real estate consultation",
+        "text": "An initial conversation to understand what you are looking for, your priorities and your timeline, and to clarify how we can help."
+      },
+      {
+        "icon": "compass",
+        "title": "Guidance at every stage",
+        "text": "Clear explanations of the stages involved and the information you are likely to need, so you know what comes next."
+      },
+      {
+        "icon": "options",
+        "title": "Options aligned with your needs",
+        "text": "When it applies to your case, we present options that match the criteria we defined together, with the relevant information for each one."
+      },
+      {
+        "icon": "followup",
+        "title": "Ongoing communication",
+        "text": "A consistent point of contact who keeps you updated and answers your questions throughout the process."
+      }
+    ],
+    "note": "The specific services available depend on each case. Contact us to confirm how we can help with your situation.",
+    "ctaTitle": "Not sure where to start?",
+    "ctaBody": "Tell us what you have in mind. We will listen and let you know the next step."
+  },
+
+  "process": {
+    "kicker": "How we work",
+    "title": "A simple process, centered on you",
+    "lead": "Four steps that keep things clear from the first conversation onward.",
+    "image": { "image": "process-kitchen", "alt": "Modern kitchen with an island and a large window facing the garden" },
+    "steps": [
+      { "title": "First contact", "text": "You reach out through any of our available channels and tell us briefly what you have in mind." },
+      { "title": "Understanding your needs", "text": "We talk about your goals, priorities, timing and any conditions that matter to you." },
+      { "title": "Presenting options", "text": "Based on what we learned, we share options and information so you can compare them calmly." },
+      { "title": "Staying with you", "text": "We remain available, keep you informed and help you understand each step as it comes." }
+    ],
+    "disclaimer": "Every process is different. Timelines and outcomes depend on factors such as market conditions and the parties involved, so we do not promise specific results."
+  },
+
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Frequently asked questions",
+    "lead": "General answers to common questions. For anything specific to your situation, please contact us.",
+    "items": [
+      {
+        "q": "What does Quality & Services LLC do?",
+        "a": "Quality & Services LLC is a real estate company focused on personalized attention. On our Services page you will find the areas where we focus; contact us to confirm how we can help in your specific case."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Reach out through the channels listed on our Contact page and tell us briefly what you are looking for. From there, we will arrange a conversation to understand your needs."
+      },
+      {
+        "q": "What information is useful to have ready?",
+        "a": "It helps to know the location you are interested in, your approximate timeline, the price range you have in mind and any questions or conditions that matter to you. If you don't have everything defined yet, that's fine — we can work through it together."
+      },
+      {
+        "q": "Do you work in my area?",
+        "a": "Tell us the location you are interested in and we will let you know whether we can support you there."
+      },
+      {
+        "q": "How much do your services cost?",
+        "a": "Costs and conditions depend on the type of support and on each situation. Ask us directly and we will share the information that applies to your case."
+      },
+      {
+        "q": "Are the properties in the photos available?",
+        "a": "No. The photographs on this website are illustrative and do not show properties offered by Quality & Services LLC."
+      }
+    ]
+  },
+
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk",
+    "lead": "Tell us about your situation and we will let you know how we can help.",
+    "image": { "image": "contact-aerial", "alt": "Aerial view of a residential neighborhood with tree-lined streets" },
+    "channelsTitle": "Contact details",
+    "labels": {
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "address": "Address",
+      "hours": "Hours",
+      "serviceArea": "Service area",
+      "social": "Social media"
+    },
+    "noChannels": "Our direct contact details are being finalized and will be published on this page soon.",
+    "form": {
+      "title": "Send us a message",
+      "disabledNotice": "The online form is not active yet, so messages cannot be sent from this page for now.",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "topic": "What can we help you with?",
+      "topicPlaceholder": "Select an option",
+      "topics": ["General inquiry", "I'm looking for a property", "I have a property", "Other"],
+      "message": "Message",
+      "consent": "I agree that Quality & Services LLC may use this information to respond to my inquiry.",
+      "required": "Required",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you. Your message was sent successfully.",
+      "error": "Your message could not be sent. Please try again later.",
+      "errors": {
+        "required": "Please complete this field.",
+        "email": "Please enter a valid email address.",
+        "consent": "Please confirm to continue.",
+        "summary": "Please review the highlighted fields."
+      }
+    }
+  },
+
+  "credits": {
+    "title": "Photo credits",
+    "lead": "The photographs on this website are illustrative. They come from Unsplash and are used under the Unsplash License. They do not show properties offered by Quality & Services LLC.",
+    "by": "Photo by",
+    "on": "on Unsplash",
+    "license": "Unsplash License",
+    "usedFor": "Used in"
+  },
+
+  "notFound": {
+    "code": "404",
+    "title": "We couldn't find this page",
+    "body": "The address may be incorrect or the page may have moved.",
+    "home": "Back to home",
+    "contact": "Contact"
+  },
+
+  "footer": {
+    "tagline": "Real estate with personalized attention.",
+    "explore": "Explore",
+    "language": "Language",
+    "illustrative": "Photographs are illustrative and do not show properties offered by the company.",
+    "credits": "Photo credits",
+    "privacy": "This website does not use cookies or tracking tools. Your language choice is saved only in your browser.",
+    "rights": "All rights reserved."
+  }
+}

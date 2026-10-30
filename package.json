@@ -1,0 +1,14 @@
+{
+  "name": "quality-services-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web bilingüe (EN/ES) de Quality & Services LLC — estático, sin dependencias, listo para GitHub Pages.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/build.mjs && npx --yes serve dist -l 4321",
+    "images": "node scripts/optimize-images.mjs"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_instrucciones": "Configuración central del sitio. Los campos en null NO se publican. Completa solo con datos confirmados por Quality & Services LLC. Ver docs/PENDIENTES.md.",
+
+  "companyName": "Quality & Services LLC",
+  "defaultLanguage": "en",
+  "languages": ["en", "es"],
+
+  "siteUrl": null,
+  "_siteUrl": "URL pública sin barra final, p. ej. https://www.ejemplo.com o https://usuario.github.io/repositorio. En GitHub Actions se toma automáticamente de GitHub Pages si se deja en null.",
+
+  "contact": {
+    "email": null,
+    "phone": null,
+    "_phone": "Formato internacional, p. ej. +1 555 123 4567",
+    "whatsapp": null,
+    "_whatsapp": "Solo dígitos con código de país, p. ej. 15551234567. Publicar solo si el número tiene WhatsApp confirmado.",
+    "address": null,
+    "hours": { "en": null, "es": null },
+    "serviceArea": { "en": null, "es": null }
+  },
+
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "linkedin": null
+  },
+
+  "form": {
+    "endpoint": null,
+    "_endpoint": "URL de un servicio de recepción de formularios que acepte POST (p. ej. Formspree, Web3Forms, Basin). Mientras sea null, el formulario se muestra desactivado y no envía nada.",
+    "accessKeyField": null,
+    "accessKey": null,
+    "_accessKey": "Solo para servicios que requieren una clave PÚBLICA en el formulario (p. ej. Web3Forms: accessKeyField = \"access_key\"). Nunca coloques aquí contraseñas ni tokens privados."
+  }
+}

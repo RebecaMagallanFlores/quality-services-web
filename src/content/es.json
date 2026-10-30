@@ -1,0 +1,315 @@
+{
+  "lang": "es",
+  "htmlLang": "es",
+  "ogLocale": "es_MX",
+  "languageName": "Español",
+
+  "slugs": {
+    "home": "",
+    "about": "nosotros",
+    "services": "servicios",
+    "process": "como-trabajamos",
+    "faq": "preguntas-frecuentes",
+    "contact": "contacto",
+    "credits": "creditos-fotograficos"
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "process": "Cómo trabajamos",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto"
+  },
+
+  "ui": {
+    "skip": "Saltar al contenido principal",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "footerNav": "Navegación del pie de página",
+    "langLabel": "Idioma",
+    "switchTo": "View this site in English",
+    "homeLink": "Quality & Services LLC — Inicio",
+    "logoAlt": "Logotipo de Quality & Services LLC",
+    "contactCta": "Contáctanos",
+    "learnMore": "Conocer más",
+    "illustrative": "Imagen ilustrativa",
+    "carousel": {
+      "label": "Imágenes destacadas",
+      "prev": "Imagen anterior",
+      "next": "Imagen siguiente",
+      "pause": "Pausar presentación",
+      "play": "Reanudar presentación",
+      "goTo": "Mostrar imagen {n} de {total}",
+      "slide": "Imagen {n} de {total}"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "title": "Quality & Services LLC | Bienes raíces con atención personalizada",
+      "description": "Quality & Services LLC es una empresa inmobiliaria enfocada en la atención personalizada, la información clara y un seguimiento constante."
+    },
+    "about": {
+      "title": "Nosotros, misión y valores | Quality & Services LLC",
+      "description": "Conoce quién es Quality & Services LLC, cómo entendemos la atención al cliente y la misión, visión y valores que guían nuestro trabajo."
+    },
+    "services": {
+      "title": "Servicios | Quality & Services LLC",
+      "description": "Cómo puede apoyarte Quality & Services LLC: asesoría inmobiliaria, orientación en cada etapa y comunicación constante."
+    },
+    "process": {
+      "title": "Cómo trabajamos | Quality & Services LLC",
+      "description": "Nuestro proceso en cuatro pasos: primer contacto, identificación de necesidades, presentación de opciones y acompañamiento."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes | Quality & Services LLC",
+      "description": "Respuestas a dudas comunes para comenzar a trabajar con Quality & Services LLC."
+    },
+    "contact": {
+      "title": "Contacto | Quality & Services LLC",
+      "description": "Cómo comunicarte con Quality & Services LLC."
+    },
+    "credits": {
+      "title": "Créditos fotográficos | Quality & Services LLC",
+      "description": "Fuentes, autores y licencia de las fotografías utilizadas en este sitio."
+    },
+    "notFound": {
+      "title": "Página no encontrada | Quality & Services LLC",
+      "description": "La página que buscas no existe o cambió de dirección."
+    }
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "Bienes raíces · Atención personalizada",
+      "title": "Asesoría inmobiliaria basada en calidad y confianza",
+      "lead": "En Quality & Services LLC atendemos a cada cliente de forma personal, con información clara y un seguimiento cercano en cada etapa.",
+      "primary": "Contáctanos",
+      "secondary": "Conoce cómo trabajamos"
+    },
+    "slides": [
+      { "image": "hero-dusk", "alt": "Casa contemporánea de dos pisos con grandes ventanales iluminados al atardecer", "position": "50% 60%" },
+      { "image": "hero-villa", "alt": "Villa moderna blanca con alberca y área de descanso al aire libre", "position": "50% 55%" },
+      { "image": "hero-living", "alt": "Sala luminosa con sofá de piel y ventanales de piso a techo", "position": "50% 50%" },
+      { "image": "hero-pool", "alt": "Casa moderna de una planta con alberca y camastros", "position": "50% 55%" }
+    ],
+    "intro": {
+      "kicker": "Quiénes somos",
+      "title": "Una forma cuidadosa de entender los bienes raíces",
+      "body": [
+        "Comprar, vender o encontrar una propiedad rara vez es solo una transacción. Intervienen tiempos, presupuesto, planes familiares y muchas preguntas en el camino.",
+        "Quality & Services LLC nació de una idea sencilla: cada cliente merece atención, información honesta y alguien que dé seguimiento."
+      ],
+      "link": "Conoce Quality & Services LLC"
+    },
+    "values": {
+      "kicker": "Lo que nos guía",
+      "title": "Cinco compromisos en cada conversación"
+    },
+    "services": {
+      "kicker": "Servicios",
+      "title": "Cómo podemos apoyarte",
+      "lead": "Cada situación es distinta. Estas son las áreas en las que concentramos nuestra atención.",
+      "link": "Ver servicios"
+    },
+    "process": {
+      "kicker": "Cómo trabajamos",
+      "title": "Un proceso claro desde la primera conversación",
+      "link": "Ver el proceso completo"
+    },
+    "cta": {
+      "title": "Hablemos de lo que estás buscando",
+      "body": "Cuéntanos tu situación y te diremos cómo podemos ayudarte.",
+      "button": "Contáctanos"
+    }
+  },
+
+  "about": {
+    "kicker": "Nosotros",
+    "title": "Quality & Services LLC",
+    "lead": "Una empresa inmobiliaria que pone la atención personal, la transparencia y el seguimiento en el centro de su trabajo.",
+    "image": { "image": "about-architecture", "alt": "Vista desde abajo de un edificio residencial blanco contra el cielo" },
+    "story": {
+      "title": "Quiénes somos",
+      "body": [
+        "Quality & Services LLC es una empresa inmobiliaria. Nuestro nombre refleja lo que queremos que viva cada cliente: calidad en la forma de trabajar y servicio en el trato con las personas.",
+        "Creemos que una buena experiencia inmobiliaria empieza por escuchar. Antes de hablar de opciones, nos tomamos el tiempo de entender qué necesitas, qué es lo más importante para ti y cuáles son tus tiempos."
+      ]
+    },
+    "approach": {
+      "title": "Nuestro enfoque de servicio",
+      "items": [
+        { "title": "Atención personal", "text": "Hablas con personas que conocen tu caso y le dan seguimiento." },
+        { "title": "Información clara", "text": "Explicamos cada etapa con palabras sencillas y resolvemos tus dudas conforme surgen." },
+        { "title": "Seguimiento constante", "text": "Te mantenemos informado para que siempre sepas en qué punto está tu proceso." }
+      ]
+    },
+    "mission": {
+      "label": "Misión",
+      "text": "Brindar a cada cliente un acompañamiento inmobiliario atento y honesto, con información clara y un seguimiento constante, para que cada decisión se tome con confianza."
+    },
+    "vision": {
+      "label": "Visión",
+      "text": "Ser una empresa inmobiliaria en la que las personas confíen y que recomienden por la calidad de su servicio, la claridad de su comunicación y el cuidado que pone en cada relación."
+    },
+    "valuesTitle": "Nuestros valores",
+    "valuesLead": "Cinco principios que definen cómo trabajamos con cada cliente."
+  },
+
+  "values": [
+    { "key": "integrity", "title": "Integridad", "text": "Actuamos con honestidad y te decimos lo que sabemos, y también lo que no sabemos." },
+    { "key": "transparency", "title": "Transparencia", "text": "Compartimos la información abiertamente y explicamos cada paso antes de darlo." },
+    { "key": "commitment", "title": "Compromiso", "text": "Cumplimos lo que acordamos y te mantenemos informado durante todo el proceso." },
+    { "key": "excellence", "title": "Excelencia", "text": "Cuidamos los detalles, desde la primera conversación hasta el último documento." },
+    { "key": "attention", "title": "Atención personalizada", "text": "Primero escuchamos y después adaptamos nuestro apoyo a tu situación, no al revés." }
+  ],
+
+  "services": {
+    "kicker": "Servicios",
+    "title": "Cómo podemos apoyarte",
+    "lead": "Cada cliente llega con objetivos distintos. Nuestro papel es entenderlos y ofrecer un acompañamiento que se ajuste a tu situación.",
+    "items": [
+      {
+        "icon": "conversation",
+        "title": "Asesoría inmobiliaria",
+        "text": "Una conversación inicial para entender qué buscas, tus prioridades y tus tiempos, y aclarar cómo podemos ayudarte."
+      },
+      {
+        "icon": "compass",
+        "title": "Orientación en cada etapa",
+        "text": "Explicaciones claras sobre las etapas del proceso y la información que probablemente necesitarás, para que sepas qué sigue."
+      },
+      {
+        "icon": "options",
+        "title": "Opciones acordes a tus necesidades",
+        "text": "Cuando aplique a tu caso, presentamos opciones que coinciden con los criterios que definimos juntos, con la información relevante de cada una."
+      },
+      {
+        "icon": "followup",
+        "title": "Comunicación constante",
+        "text": "Un punto de contacto que te mantiene al tanto y responde tus preguntas durante todo el proceso."
+      }
+    ],
+    "note": "Los servicios específicos dependen de cada caso. Contáctanos para confirmar cómo podemos ayudarte en tu situación.",
+    "ctaTitle": "¿No sabes por dónde empezar?",
+    "ctaBody": "Cuéntanos lo que tienes en mente. Te escucharemos y te diremos cuál es el siguiente paso."
+  },
+
+  "process": {
+    "kicker": "Cómo trabajamos",
+    "title": "Un proceso sencillo, centrado en ti",
+    "lead": "Cuatro pasos que mantienen todo claro desde la primera conversación.",
+    "image": { "image": "process-kitchen", "alt": "Cocina moderna con isla y un amplio ventanal hacia el jardín" },
+    "steps": [
+      { "title": "Primer contacto", "text": "Te comunicas por alguno de nuestros medios disponibles y nos cuentas brevemente lo que tienes en mente." },
+      { "title": "Identificación de necesidades", "text": "Conversamos sobre tus objetivos, prioridades, tiempos y cualquier condición que sea importante para ti." },
+      { "title": "Presentación de opciones", "text": "Con base en lo que conocimos, compartimos opciones e información para que puedas compararlas con calma." },
+      { "title": "Acompañamiento", "text": "Seguimos disponibles, te mantenemos informado y te ayudamos a entender cada paso conforme llega." }
+    ],
+    "disclaimer": "Cada proceso es distinto. Los tiempos y resultados dependen de factores como las condiciones del mercado y las partes involucradas, por lo que no prometemos resultados específicos."
+  },
+
+  "faq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes",
+    "lead": "Respuestas generales a dudas comunes. Para cualquier tema específico de tu situación, contáctanos.",
+    "items": [
+      {
+        "q": "¿Qué hace Quality & Services LLC?",
+        "a": "Quality & Services LLC es una empresa inmobiliaria enfocada en la atención personalizada. En la página de Servicios encontrarás las áreas en las que nos concentramos; contáctanos para confirmar cómo podemos ayudarte en tu caso."
+      },
+      {
+        "q": "¿Cómo puedo empezar?",
+        "a": "Comunícate por los medios que aparecen en nuestra página de Contacto y cuéntanos brevemente qué buscas. A partir de ahí, acordaremos una conversación para entender tus necesidades."
+      },
+      {
+        "q": "¿Qué información conviene tener a la mano?",
+        "a": "Ayuda saber la zona que te interesa, tus tiempos aproximados, el rango de precio que contemplas y las dudas o condiciones que sean importantes para ti. Si todavía no tienes todo definido, no hay problema: podemos revisarlo juntos."
+      },
+      {
+        "q": "¿Trabajan en mi zona?",
+        "a": "Indícanos la ubicación que te interesa y te diremos si podemos apoyarte ahí."
+      },
+      {
+        "q": "¿Cuánto cuestan sus servicios?",
+        "a": "Los costos y condiciones dependen del tipo de apoyo y de cada situación. Pregúntanos directamente y te compartiremos la información que aplica a tu caso."
+      },
+      {
+        "q": "¿Las propiedades de las fotografías están disponibles?",
+        "a": "No. Las fotografías de este sitio son ilustrativas y no muestran propiedades ofrecidas por Quality & Services LLC."
+      }
+    ]
+  },
+
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Hablemos",
+    "lead": "Cuéntanos tu situación y te diremos cómo podemos ayudarte.",
+    "image": { "image": "contact-aerial", "alt": "Vista aérea de un vecindario residencial con calles arboladas" },
+    "channelsTitle": "Datos de contacto",
+    "labels": {
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "address": "Dirección",
+      "hours": "Horario",
+      "serviceArea": "Zona de atención",
+      "social": "Redes sociales"
+    },
+    "noChannels": "Estamos terminando de preparar nuestros datos de contacto directo; los publicaremos en esta página muy pronto.",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "disabledNotice": "El formulario en línea todavía no está activo, por lo que por ahora no es posible enviar mensajes desde esta página.",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono (opcional)",
+      "topic": "¿En qué podemos ayudarte?",
+      "topicPlaceholder": "Selecciona una opción",
+      "topics": ["Consulta general", "Busco una propiedad", "Tengo una propiedad", "Otro"],
+      "message": "Mensaje",
+      "consent": "Acepto que Quality & Services LLC utilice estos datos para responder a mi consulta.",
+      "required": "Obligatorio",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Gracias. Tu mensaje se envió correctamente.",
+      "error": "No fue posible enviar tu mensaje. Inténtalo de nuevo más tarde.",
+      "errors": {
+        "required": "Completa este campo.",
+        "email": "Escribe un correo electrónico válido.",
+        "consent": "Confirma para continuar.",
+        "summary": "Revisa los campos señalados."
+      }
+    }
+  },
+
+  "credits": {
+    "title": "Créditos fotográficos",
+    "lead": "Las fotografías de este sitio son ilustrativas. Provienen de Unsplash y se utilizan conforme a la Licencia de Unsplash. No muestran propiedades ofrecidas por Quality & Services LLC.",
+    "by": "Fotografía de",
+    "on": "en Unsplash",
+    "license": "Licencia de Unsplash",
+    "usedFor": "Se usa en"
+  },
+
+  "notFound": {
+    "code": "404",
+    "title": "No encontramos esta página",
+    "body": "Es posible que la dirección sea incorrecta o que la página haya cambiado de lugar.",
+    "home": "Volver al inicio",
+    "contact": "Contacto"
+  },
+
+  "footer": {
+    "tagline": "Bienes raíces con atención personalizada.",
+    "explore": "Explorar",
+    "language": "Idioma",
+    "illustrative": "Las fotografías son ilustrativas y no muestran propiedades ofrecidas por la empresa.",
+    "credits": "Créditos fotográficos",
+    "privacy": "Este sitio no utiliza cookies ni herramientas de seguimiento. Tu elección de idioma se guarda solo en tu navegador.",
+    "rights": "Todos los derechos reservados."
+  }
+}

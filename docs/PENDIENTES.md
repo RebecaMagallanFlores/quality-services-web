@@ -35,8 +35,8 @@ Los cuatro servicios publicados son **generales y prudentes** (asesoría, orient
 
 ## 5. Publicación
 
+- [x] Repositorio público y sitio publicado en GitHub Pages (plan gratuito): https://rebecamagallanflores.github.io/quality-services-web/
 - [ ] Dominio propio (si se usará) y acceso a su DNS.
-- [ ] Decisión sobre la visibilidad del repositorio: GitHub Pages desde un repositorio privado requiere plan de pago.
 
 ## 6. Datos estructurados
 

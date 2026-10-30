@@ -1,6 +1,9 @@
 # Quality & Services LLC — sitio web
 
-Sitio informativo bilingüe (inglés / español) de **Quality & Services LLC**. Es un sitio estático: HTML, CSS y JavaScript generados por un script de Node.js **sin dependencias**, publicado con **GitHub Pages** mediante GitHub Actions. No usa Vercel, Supabase, servidor, base de datos, cookies ni rastreadores.
+Sitio informativo bilingüe (inglés / español) de **Quality & Services LLC**.
+
+**Sitio publicado:** https://rebecamagallanflores.github.io/quality-services-web/
+ Es un sitio estático: HTML, CSS y JavaScript generados por un script de Node.js **sin dependencias**, publicado con **GitHub Pages** mediante GitHub Actions. No usa Vercel, Supabase, servidor, base de datos, cookies ni rastreadores.
 
 ## Requisitos
 

@@ -292,7 +292,7 @@ html:not(.js) .hero__controls { display: none; }
 .page-hero__inner { padding-block: clamp(2.75rem, 5.5vw, 4.5rem) clamp(2.25rem, 4.5vw, 3.5rem); }
 .page-hero__title { color: var(--heading); font-size: clamp(2.25rem, 1.6rem + 2.8vw, 3.75rem); font-weight: 500; max-width: 26ch; text-wrap: balance; }
 .page-hero__lead { max-width: 40rem; margin: 1rem 0 0; color: var(--text); font-size: 1.15rem; }
-.page-hero--image .page-hero__inner { padding-block: clamp(3.5rem, 7vw, 5.5rem) clamp(4rem, 6vw, 4.75rem); }
+.page-hero--image .page-hero__inner { padding-block: clamp(3.5rem, 7vw, 5.5rem) clamp(3rem, 6vw, 4.5rem); }
 .page-hero__media { position: absolute; inset: 0; z-index: -1; }
 .page-hero__media img { width: 100%; height: 100%; object-fit: cover; }
 .page-hero__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(13, 36, 56, .9) 0%, rgba(13, 36, 56, .68) 55%, rgba(13, 36, 56, .42) 100%); }

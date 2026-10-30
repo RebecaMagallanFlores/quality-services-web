@@ -258,7 +258,6 @@ const pageHero = (kicker, title, lead, image) => `
         <h1 class="page-hero__title">${esc(title)}</h1>
         ${lead ? `<p class="page-hero__lead">${esc(lead)}</p>` : ''}
       </div>
-      ${image ? `<p class="photo-note">${esc(image.note)}</p>` : ''}
     </section>`;
 
 // ---------- Páginas ----------
@@ -297,7 +296,6 @@ function pageHome(lang) {
           <button type="button" class="hero__btn" data-next aria-label="${esc(c.next)}">${icon('arrowRight')}</button>
         </div>
       </div>
-      <p class="photo-note photo-note--hero">${esc(t.ui.illustrative)}</p>
     </section>
 
     <section class="section section--intro" aria-labelledby="intro-title">
@@ -324,7 +322,6 @@ function pageHome(lang) {
       <div class="container media-split media-split--home">
         <figure class="media-split__media">
           ${img(h.process.image.image, h.process.image.alt, { sizes: '(min-width: 900px) 45vw, 100vw', position: h.process.image.position })}
-          <figcaption class="photo-note photo-note--inline">${esc(t.ui.illustrative)}</figcaption>
         </figure>
         <div class="media-split__text">
           <p class="kicker">${esc(h.process.kicker)}</p>
@@ -360,7 +357,6 @@ ${pageHero(a.kicker, a.title, a.lead, null)}
         </div>
         <figure class="media-split__media">
           ${img(a.image.image, a.image.alt, { sizes: '(min-width: 900px) 45vw, 100vw' })}
-          <figcaption class="photo-note photo-note--inline">${esc(t.ui.illustrative)}</figcaption>
         </figure>
       </div>
     </section>
@@ -423,7 +419,6 @@ ${pageHero(p.kicker, p.title, p.lead, null)}
         </div>
         <figure class="media-split__media media-split__media--sticky">
           ${img(p.image.image, p.image.alt, { sizes: '(min-width: 900px) 45vw, 100vw' })}
-          <figcaption class="photo-note photo-note--inline">${esc(t.ui.illustrative)}</figcaption>
         </figure>
       </div>
     </section>
@@ -528,7 +523,7 @@ function pageContact(lang) {
           </form>`;
 
   const body = `
-${pageHero(c.kicker, c.title, c.lead, { ...c.image, note: t.ui.illustrative })}
+${pageHero(c.kicker, c.title, c.lead, c.image)}
     <section class="section section--tight" aria-label="${esc(c.title)}">
       ${enabled ? `<div class="container contact">
         <div class="contact__info">
@@ -541,7 +536,6 @@ ${pageHero(c.kicker, c.title, c.lead, { ...c.image, note: t.ui.illustrative })}
         <div class="contact-card">
           <h2 class="section-title section-title--sm">${esc(c.channelsTitle)}</h2>
           ${channels}
-          ${rows.length ? `<p class="contact-soon">${icon('clock', 'icon icon--sm')}<span>${esc(c.moreSoon)}</span></p>` : ''}
         </div>
       </div>`}
     </section>`;

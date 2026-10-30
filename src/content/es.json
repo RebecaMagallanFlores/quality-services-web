@@ -33,7 +33,6 @@
     "logoAlt": "Logotipo de Quality & Services LLC",
     "contactCta": "Contáctanos",
     "learnMore": "Conocer más",
-    "illustrative": "Imagen ilustrativa",
     "carousel": {
       "label": "Imágenes destacadas",
       "prev": "Imagen anterior",
@@ -347,8 +346,7 @@
         "consent": "Confirma para continuar.",
         "summary": "Revisa los campos señalados."
       }
-    },
-    "moreSoon": "Pronto habilitaremos más medios de contacto."
+    }
   },
   "credits": {
     "title": "Créditos fotográficos",

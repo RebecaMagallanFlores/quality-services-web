@@ -33,7 +33,6 @@
     "logoAlt": "Quality & Services LLC logo",
     "contactCta": "Contact us",
     "learnMore": "Learn more",
-    "illustrative": "Illustrative image",
     "carousel": {
       "label": "Featured images",
       "prev": "Previous image",
@@ -347,8 +346,7 @@
         "consent": "Please confirm to continue.",
         "summary": "Please review the highlighted fields."
       }
-    },
-    "moreSoon": "More ways to reach us will be available soon."
+    }
   },
   "credits": {
     "title": "Photo credits",

@@ -157,7 +157,7 @@ function layout({ lang, key, title, description, body, bodyClass = '', alternate
       <a class="brand" href="${href(routeOf(lang, 'home'))}" aria-label="${esc(t.ui.homeLink)}">${logo(t)}</a>
       <nav class="site-nav" id="site-nav" aria-label="${esc(t.ui.mainNav)}" data-nav>
         <ul class="site-nav__list">${navLinks}</ul>
-        <a class="btn btn--primary btn--sm site-nav__cta" href="${href(routeOf(lang, 'contact'))}">${esc(t.ui.contactCta)}</a>
+        <a class="btn btn--navy btn--sm site-nav__cta" href="${href(routeOf(lang, 'contact'))}">${esc(t.ui.contactCta)}</a>
       </nav>
       <div class="site-header__tools">
         ${langSwitch()}
@@ -246,7 +246,7 @@ const ctaBand = (lang, title, text, button) => `
           <h2 class="cta-band__title" id="cta-title">${esc(title)}</h2>
           <p class="cta-band__text">${esc(text)}</p>
         </div>
-        <a class="btn btn--gold" href="${href(routeOf(lang, 'contact'))}">${esc(button)} ${icon('arrowRight', 'icon icon--sm')}</a>
+        <a class="btn btn--navy" href="${href(routeOf(lang, 'contact'))}">${esc(button)} ${icon('arrowRight', 'icon icon--sm')}</a>
       </div>
     </section>`;
 
@@ -313,7 +313,7 @@ function pageHome(lang) {
       </div>
     </section>
 
-    <section class="section section--sand" aria-labelledby="values-title">
+    <section class="section section--alt" aria-labelledby="values-title">
       <div class="container">
         ${sectionHead(h.values.kicker, h.values.title, '', { id: 'values-title', align: 'section-head--center' })}
         ${valuesGrid(t)}
@@ -330,7 +330,7 @@ function pageHome(lang) {
       </div>
     </section>
 
-    <section class="section section--navy" aria-labelledby="process-title">
+    <section class="section section--alt" aria-labelledby="process-title">
       <div class="container">
         <div class="split-head">
           ${sectionHead(h.process.kicker, h.process.title, '', { id: 'process-title' })}
@@ -360,7 +360,7 @@ ${pageHero(a.kicker, a.title, a.lead, null)}
       </div>
     </section>
 
-    <section class="section section--sand" aria-labelledby="approach-title">
+    <section class="section section--alt" aria-labelledby="approach-title">
       <div class="container">
         ${sectionHead('', a.approach.title, '', { id: 'approach-title' })}
         <ul class="approach" role="list">
@@ -369,7 +369,7 @@ ${pageHero(a.kicker, a.title, a.lead, null)}
       </div>
     </section>
 
-    <section class="section section--navy" aria-label="${esc(a.mission.label)} · ${esc(a.vision.label)}">
+    <section class="section" aria-label="${esc(a.mission.label)} · ${esc(a.vision.label)}">
       <div class="container statements">
         <article class="statement">
           <h2 class="statement__label">${esc(a.mission.label)}</h2>
@@ -382,7 +382,7 @@ ${pageHero(a.kicker, a.title, a.lead, null)}
       </div>
     </section>
 
-    <section class="section" aria-labelledby="values-title">
+    <section class="section section--alt" aria-labelledby="values-title">
       <div class="container">
         ${sectionHead('', a.valuesTitle, a.valuesLead, { id: 'values-title', align: 'section-head--center' })}
         ${valuesGrid(t)}

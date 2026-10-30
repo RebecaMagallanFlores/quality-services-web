@@ -320,23 +320,28 @@ function pageHome(lang) {
       </div>
     </section>
 
-    <section class="section" aria-labelledby="services-title">
+    <section class="section" aria-labelledby="process-title">
+      <div class="container media-split media-split--home">
+        <figure class="media-split__media">
+          ${img(h.process.image.image, h.process.image.alt, { sizes: '(min-width: 900px) 45vw, 100vw', position: h.process.image.position })}
+          <figcaption class="photo-note photo-note--inline">${esc(t.ui.illustrative)}</figcaption>
+        </figure>
+        <div class="media-split__text">
+          <p class="kicker">${esc(h.process.kicker)}</p>
+          <h2 class="section-title" id="process-title">${esc(h.process.title)}</h2>
+          ${stepsList(t).replace('class="steps"', 'class="steps steps--compact"')}
+          <a class="link-arrow" href="${href(routeOf(lang, 'process'))}">${esc(h.process.link)} ${icon('arrowRight', 'icon icon--sm')}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="services-title">
       <div class="container">
         <div class="split-head">
           ${sectionHead(h.services.kicker, h.services.title, h.services.lead, { id: 'services-title' })}
           <a class="link-arrow" href="${href(routeOf(lang, 'services'))}">${esc(h.services.link)} ${icon('arrowRight', 'icon icon--sm')}</a>
         </div>
         ${servicesGrid(t)}
-      </div>
-    </section>
-
-    <section class="section section--alt" aria-labelledby="process-title">
-      <div class="container">
-        <div class="split-head">
-          ${sectionHead(h.process.kicker, h.process.title, '', { id: 'process-title' })}
-          <a class="link-arrow link-arrow--light" href="${href(routeOf(lang, 'process'))}">${esc(h.process.link)} ${icon('arrowRight', 'icon icon--sm')}</a>
-        </div>
-        ${stepsList(t)}
       </div>
     </section>
 ${ctaBand(lang, h.cta.title, h.cta.body, h.cta.button)}`;
@@ -453,7 +458,7 @@ function pageContact(lang) {
   const t = content[lang]; const c = t.contact; const L = c.labels; const cc = config.contact;
   const rows = [];
   if (cc.email) rows.push(['mail', L.email, `<a href="mailto:${esc(cc.email)}">${esc(cc.email)}</a>`]);
-  if (cc.phone) rows.push(['phone', L.phone, `<a href="tel:${esc(cc.phone.replace(/[^\d+]/g, ''))}">${esc(cc.phone)}</a>`]);
+  if (cc.phone) rows.push(['phone', L.phone, `<a class="channel__primary" href="tel:${esc(cc.phone.replace(/[^\d+]/g, ''))}">${esc(cc.phone)}</a>`]);
   if (cc.whatsapp) rows.push(['whatsapp', L.whatsapp, `<a href="https://wa.me/${esc(cc.whatsapp.replace(/\D/g, ''))}" rel="noopener" target="_blank">+${esc(cc.whatsapp.replace(/\D/g, ''))}</a>`]);
   if (cc.address) rows.push(['pin', L.address, `<span>${esc(cc.address)}</span>`]);
   if (cc.hours?.[lang]) rows.push(['clock', L.hours, `<span>${esc(cc.hours[lang])}</span>`]);
@@ -472,11 +477,12 @@ function pageContact(lang) {
   const hidden = enabled && config.form.accessKeyField && config.form.accessKey
     ? `<input type="hidden" name="${esc(config.form.accessKeyField)}" value="${esc(config.form.accessKey)}">` : '';
 
-  const form = `
-          <form class="contact-form" ${enabled ? `action="${esc(config.form.endpoint)}" method="post" data-form` : 'aria-describedby="form-disabled"'} novalidate data-messages="${msgs}">
+  // El formulario solo se genera cuando hay un receptor configurado (site.config.json → form.endpoint).
+  // Mientras tanto se oculta y la página muestra un aviso de que habrá más medios de contacto.
+  const form = !enabled ? '' : `
+          <form class="contact-form" action="${esc(config.form.endpoint)}" method="post" data-form novalidate data-messages="${msgs}">
             <h2 class="contact-form__title">${esc(F.title)}</h2>
-            ${enabled ? '' : `<p class="form-notice" id="form-disabled" role="note">${esc(F.disabledNotice)}</p>`}
-            <fieldset ${enabled ? '' : 'disabled'}>
+            <fieldset>
               <legend class="visually-hidden">${esc(F.title)}</legend>
               ${hidden}
               <div class="field">
@@ -523,15 +529,21 @@ function pageContact(lang) {
 
   const body = `
 ${pageHero(c.kicker, c.title, c.lead, { ...c.image, note: t.ui.illustrative })}
-    <section class="section" aria-label="${esc(c.title)}">
-      <div class="container contact">
+    <section class="section section--tight" aria-label="${esc(c.title)}">
+      ${enabled ? `<div class="container contact">
         <div class="contact__info">
           <h2 class="section-title section-title--sm">${esc(c.channelsTitle)}</h2>
           ${channels}
         </div>
         <div class="contact__form">${form}
         </div>
-      </div>
+      </div>` : `<div class="container container--narrow">
+        <div class="contact-card">
+          <h2 class="section-title section-title--sm">${esc(c.channelsTitle)}</h2>
+          ${channels}
+          ${rows.length ? `<p class="contact-soon">${icon('clock', 'icon icon--sm')}<span>${esc(c.moreSoon)}</span></p>` : ''}
+        </div>
+      </div>`}
     </section>`;
   return layout({ lang, key: 'contact', ...t.pages.contact, body });
 }

@@ -79,7 +79,7 @@ docs/                     Datos pendientes y créditos fotográficos
 
 ## Formulario de contacto
 
-Está **desactivado** porque aún no hay un correo ni servicio de recepción. Se muestra deshabilitado con un aviso y no envía nada. Para habilitarlo:
+Está **oculto** porque aún no hay un correo ni servicio de recepción: el código está listo en `scripts/build.mjs`, pero no se publica mientras `form.endpoint` sea `null`, y la página de contacto muestra el teléfono y un aviso de que habrá más medios próximamente. Para habilitarlo:
 
 1. Crea un formulario en un servicio que reciba envíos por `POST` y responda en JSON (por ejemplo Formspree, Web3Forms o Basin; revisa sus planes y condiciones).
 2. Escribe su URL en `src/site.config.json → form.endpoint`. Si el servicio pide una clave pública dentro del formulario (como Web3Forms), usa `accessKeyField` y `accessKey`. **Nunca** pongas contraseñas ni tokens privados.

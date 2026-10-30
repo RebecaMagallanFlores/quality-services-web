@@ -3,7 +3,6 @@
   "htmlLang": "es",
   "ogLocale": "es_MX",
   "languageName": "Español",
-
   "slugs": {
     "home": "",
     "about": "nosotros",
@@ -13,7 +12,6 @@
     "contact": "contacto",
     "credits": "creditos-fotograficos"
   },
-
   "nav": {
     "home": "Inicio",
     "about": "Nosotros",
@@ -22,7 +20,6 @@
     "faq": "Preguntas frecuentes",
     "contact": "Contacto"
   },
-
   "ui": {
     "skip": "Saltar al contenido principal",
     "menu": "Menú",
@@ -47,7 +44,6 @@
       "slide": "Imagen {n} de {total}"
     }
   },
-
   "pages": {
     "home": {
       "title": "Quality & Services LLC | Bienes raíces con atención personalizada",
@@ -82,7 +78,6 @@
       "description": "La página que buscas no existe o cambió de dirección."
     }
   },
-
   "home": {
     "hero": {
       "eyebrow": "Bienes raíces · Atención personalizada",
@@ -92,10 +87,26 @@
       "secondary": "Conoce cómo trabajamos"
     },
     "slides": [
-      { "image": "hero-dusk", "alt": "Casa contemporánea de dos pisos con grandes ventanales iluminados al atardecer", "position": "50% 60%" },
-      { "image": "hero-villa", "alt": "Villa moderna blanca con alberca y área de descanso al aire libre", "position": "50% 55%" },
-      { "image": "hero-living", "alt": "Sala luminosa con sofá de piel y ventanales de piso a techo", "position": "50% 50%" },
-      { "image": "hero-pool", "alt": "Casa moderna de una planta con alberca y camastros", "position": "50% 55%" }
+      {
+        "image": "hero-dusk",
+        "alt": "Casa contemporánea de dos pisos con grandes ventanales iluminados al atardecer",
+        "position": "50% 60%"
+      },
+      {
+        "image": "hero-villa",
+        "alt": "Villa moderna blanca con alberca y área de descanso al aire libre",
+        "position": "50% 55%"
+      },
+      {
+        "image": "hero-living",
+        "alt": "Sala luminosa con sofá de piel y ventanales de piso a techo",
+        "position": "50% 50%"
+      },
+      {
+        "image": "hero-pool",
+        "alt": "Casa moderna de una planta con alberca y camastros",
+        "position": "50% 55%"
+      }
     ],
     "intro": {
       "kicker": "Quiénes somos",
@@ -119,7 +130,12 @@
     "process": {
       "kicker": "Cómo trabajamos",
       "title": "Un proceso claro desde la primera conversación",
-      "link": "Ver el proceso completo"
+      "link": "Ver el proceso completo",
+      "image": {
+        "image": "process-kitchen",
+        "alt": "Cocina moderna y luminosa con isla y un amplio ventanal hacia el jardín",
+        "position": "50% 50%"
+      }
     },
     "cta": {
       "title": "Hablemos de lo que estás buscando",
@@ -127,12 +143,14 @@
       "button": "Contáctanos"
     }
   },
-
   "about": {
     "kicker": "Nosotros",
     "title": "Quality & Services LLC",
     "lead": "Una empresa inmobiliaria que pone la atención personal, la transparencia y el seguimiento en el centro de su trabajo.",
-    "image": { "image": "about-architecture", "alt": "Vista desde abajo de un edificio residencial blanco contra el cielo" },
+    "image": {
+      "image": "about-architecture",
+      "alt": "Vista desde abajo de un edificio residencial blanco contra el cielo"
+    },
     "story": {
       "title": "Quiénes somos",
       "body": [
@@ -143,9 +161,18 @@
     "approach": {
       "title": "Nuestro enfoque de servicio",
       "items": [
-        { "title": "Atención personal", "text": "Hablas con personas que conocen tu caso y le dan seguimiento." },
-        { "title": "Información clara", "text": "Explicamos cada etapa con palabras sencillas y resolvemos tus dudas conforme surgen." },
-        { "title": "Seguimiento constante", "text": "Te mantenemos informado para que siempre sepas en qué punto está tu proceso." }
+        {
+          "title": "Atención personal",
+          "text": "Hablas con personas que conocen tu caso y le dan seguimiento."
+        },
+        {
+          "title": "Información clara",
+          "text": "Explicamos cada etapa con palabras sencillas y resolvemos tus dudas conforme surgen."
+        },
+        {
+          "title": "Seguimiento constante",
+          "text": "Te mantenemos informado para que siempre sepas en qué punto está tu proceso."
+        }
       ]
     },
     "mission": {
@@ -159,15 +186,33 @@
     "valuesTitle": "Nuestros valores",
     "valuesLead": "Cinco principios que definen cómo trabajamos con cada cliente."
   },
-
   "values": [
-    { "key": "integrity", "title": "Integridad", "text": "Actuamos con honestidad y te decimos lo que sabemos, y también lo que no sabemos." },
-    { "key": "transparency", "title": "Transparencia", "text": "Compartimos la información abiertamente y explicamos cada paso antes de darlo." },
-    { "key": "commitment", "title": "Compromiso", "text": "Cumplimos lo que acordamos y te mantenemos informado durante todo el proceso." },
-    { "key": "excellence", "title": "Excelencia", "text": "Cuidamos los detalles, desde la primera conversación hasta el último documento." },
-    { "key": "attention", "title": "Atención personalizada", "text": "Primero escuchamos y después adaptamos nuestro apoyo a tu situación, no al revés." }
+    {
+      "key": "integrity",
+      "title": "Integridad",
+      "text": "Actuamos con honestidad y te decimos lo que sabemos, y también lo que no sabemos."
+    },
+    {
+      "key": "transparency",
+      "title": "Transparencia",
+      "text": "Compartimos la información abiertamente y explicamos cada paso antes de darlo."
+    },
+    {
+      "key": "commitment",
+      "title": "Compromiso",
+      "text": "Cumplimos lo que acordamos y te mantenemos informado durante todo el proceso."
+    },
+    {
+      "key": "excellence",
+      "title": "Excelencia",
+      "text": "Cuidamos los detalles, desde la primera conversación hasta el último documento."
+    },
+    {
+      "key": "attention",
+      "title": "Atención personalizada",
+      "text": "Primero escuchamos y después adaptamos nuestro apoyo a tu situación, no al revés."
+    }
   ],
-
   "services": {
     "kicker": "Servicios",
     "title": "Cómo podemos apoyarte",
@@ -198,21 +243,34 @@
     "ctaTitle": "¿No sabes por dónde empezar?",
     "ctaBody": "Cuéntanos lo que tienes en mente. Te escucharemos y te diremos cuál es el siguiente paso."
   },
-
   "process": {
     "kicker": "Cómo trabajamos",
     "title": "Un proceso sencillo, centrado en ti",
     "lead": "Cuatro pasos que mantienen todo claro desde la primera conversación.",
-    "image": { "image": "process-kitchen", "alt": "Cocina moderna con isla y un amplio ventanal hacia el jardín" },
+    "image": {
+      "image": "process-kitchen",
+      "alt": "Cocina moderna con isla y un amplio ventanal hacia el jardín"
+    },
     "steps": [
-      { "title": "Primer contacto", "text": "Te comunicas por alguno de nuestros medios disponibles y nos cuentas brevemente lo que tienes en mente." },
-      { "title": "Identificación de necesidades", "text": "Conversamos sobre tus objetivos, prioridades, tiempos y cualquier condición que sea importante para ti." },
-      { "title": "Presentación de opciones", "text": "Con base en lo que conocimos, compartimos opciones e información para que puedas compararlas con calma." },
-      { "title": "Acompañamiento", "text": "Seguimos disponibles, te mantenemos informado y te ayudamos a entender cada paso conforme llega." }
+      {
+        "title": "Primer contacto",
+        "text": "Te comunicas por alguno de nuestros medios disponibles y nos cuentas brevemente lo que tienes en mente."
+      },
+      {
+        "title": "Identificación de necesidades",
+        "text": "Conversamos sobre tus objetivos, prioridades, tiempos y cualquier condición que sea importante para ti."
+      },
+      {
+        "title": "Presentación de opciones",
+        "text": "Con base en lo que conocimos, compartimos opciones e información para que puedas compararlas con calma."
+      },
+      {
+        "title": "Acompañamiento",
+        "text": "Seguimos disponibles, te mantenemos informado y te ayudamos a entender cada paso conforme llega."
+      }
     ],
     "disclaimer": "Cada proceso es distinto. Los tiempos y resultados dependen de factores como las condiciones del mercado y las partes involucradas, por lo que no prometemos resultados específicos."
   },
-
   "faq": {
     "kicker": "Preguntas frecuentes",
     "title": "Preguntas frecuentes",
@@ -244,12 +302,14 @@
       }
     ]
   },
-
   "contact": {
     "kicker": "Contacto",
     "title": "Hablemos",
     "lead": "Cuéntanos tu situación y te diremos cómo podemos ayudarte.",
-    "image": { "image": "contact-aerial", "alt": "Vista aérea de un vecindario residencial con calles arboladas" },
+    "image": {
+      "image": "contact-aerial",
+      "alt": "Vista aérea de un vecindario residencial con calles arboladas"
+    },
     "channelsTitle": "Datos de contacto",
     "labels": {
       "email": "Correo electrónico",
@@ -260,16 +320,20 @@
       "serviceArea": "Zona de atención",
       "social": "Redes sociales"
     },
-    "noChannels": "Estamos terminando de preparar nuestros datos de contacto directo; los publicaremos en esta página muy pronto.",
+    "noChannels": "Nuestros medios de contacto estarán disponibles en esta página próximamente.",
     "form": {
       "title": "Envíanos un mensaje",
-      "disabledNotice": "El formulario en línea todavía no está activo, por lo que por ahora no es posible enviar mensajes desde esta página.",
       "name": "Nombre completo",
       "email": "Correo electrónico",
       "phone": "Teléfono (opcional)",
       "topic": "¿En qué podemos ayudarte?",
       "topicPlaceholder": "Selecciona una opción",
-      "topics": ["Consulta general", "Busco una propiedad", "Tengo una propiedad", "Otro"],
+      "topics": [
+        "Consulta general",
+        "Busco una propiedad",
+        "Tengo una propiedad",
+        "Otro"
+      ],
       "message": "Mensaje",
       "consent": "Acepto que Quality & Services LLC utilice estos datos para responder a mi consulta.",
       "required": "Obligatorio",
@@ -283,9 +347,9 @@
         "consent": "Confirma para continuar.",
         "summary": "Revisa los campos señalados."
       }
-    }
+    },
+    "moreSoon": "Pronto habilitaremos más medios de contacto."
   },
-
   "credits": {
     "title": "Créditos fotográficos",
     "lead": "Las fotografías de este sitio son ilustrativas. Provienen de Unsplash y se utilizan conforme a la Licencia de Unsplash. No muestran propiedades ofrecidas por Quality & Services LLC.",
@@ -294,7 +358,6 @@
     "license": "Licencia de Unsplash",
     "usedFor": "Se usa en"
   },
-
   "notFound": {
     "code": "404",
     "title": "No encontramos esta página",
@@ -302,7 +365,6 @@
     "home": "Volver al inicio",
     "contact": "Contacto"
   },
-
   "footer": {
     "tagline": "Bienes raíces con atención personalizada.",
     "explore": "Explorar",

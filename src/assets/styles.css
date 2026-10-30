@@ -108,6 +108,8 @@ main:focus { outline: none; }
 
 .section { padding-block: clamp(4rem, 9vw, 7.5rem); background: var(--bg); }
 .section--alt { background: var(--bg-alt); }
+/* Primer bloque tras una cabecera interior: el contenido queda más cerca del título */
+.page-hero + .section, .section--tight { padding-block: clamp(2.5rem, 5vw, 4rem) clamp(4rem, 8vw, 6.5rem); }
 
 .note { margin-top: 2.5rem; padding-left: 1rem; border-left: 2px solid var(--gold); color: var(--text-soft); font-size: .98rem; max-width: 52rem; }
 
@@ -287,10 +289,10 @@ html:not(.js) .hero__controls { display: none; }
   content: ""; position: absolute; right: -6rem; top: -6rem; width: 26rem; height: 26rem; z-index: -1;
   border: 1px solid rgba(201, 164, 92, .28); border-radius: 50%;
 }
-.page-hero__inner { padding-block: clamp(4rem, 9vw, 7rem) clamp(3.5rem, 7vw, 5.5rem); }
-.page-hero__title { color: var(--heading); font-size: clamp(2.4rem, 1.6rem + 3.4vw, 4.25rem); font-weight: 500; max-width: 20ch; text-wrap: balance; }
-.page-hero__lead { max-width: 40rem; margin: 1.25rem 0 0; color: var(--text); font-size: 1.15rem; }
-.page-hero--image .page-hero__inner { padding-block: clamp(5rem, 11vw, 9rem) clamp(4.5rem, 9vw, 7rem); }
+.page-hero__inner { padding-block: clamp(2.75rem, 5.5vw, 4.5rem) clamp(2.25rem, 4.5vw, 3.5rem); }
+.page-hero__title { color: var(--heading); font-size: clamp(2.25rem, 1.6rem + 2.8vw, 3.75rem); font-weight: 500; max-width: 26ch; text-wrap: balance; }
+.page-hero__lead { max-width: 40rem; margin: 1rem 0 0; color: var(--text); font-size: 1.15rem; }
+.page-hero--image .page-hero__inner { padding-block: clamp(3.5rem, 7vw, 5.5rem) clamp(4rem, 6vw, 4.75rem); }
 .page-hero__media { position: absolute; inset: 0; z-index: -1; }
 .page-hero__media img { width: 100%; height: 100%; object-fit: cover; }
 .page-hero__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(13, 36, 56, .9) 0%, rgba(13, 36, 56, .68) 55%, rgba(13, 36, 56, .42) 100%); }
@@ -341,6 +343,15 @@ html:not(.js) .hero__controls { display: none; }
 .steps--vertical .step__text { font-size: 1.02rem; }
 
 /* ---------- Bloques imagen + texto ---------- */
+.media-split--home .media-split__media img { aspect-ratio: 5 / 6; }
+.media-split--home .section-title { margin-bottom: .5rem; }
+.media-split__text .kicker { color: var(--gold); font-size: .78rem; max-width: none; margin-bottom: 1rem; }
+.steps--compact { grid-template-columns: 1fr; gap: 0; margin: 1.5rem 0 2rem; }
+.steps--compact .step { display: grid; grid-template-columns: 3.5rem 1fr; gap: .75rem; padding: 1.25rem 0; border-top: 1px solid var(--line-strong); }
+.steps--compact .step:last-child { border-bottom: 1px solid var(--line-strong); }
+.steps--compact .step__num { font-size: 2rem; margin: 0; }
+.steps--compact .step__title { font-size: 1.45rem; margin-bottom: .25rem; }
+@media (max-width: 899px) { .media-split--home .media-split__media img { aspect-ratio: 4 / 3; } }
 .media-split { display: grid; gap: 2.5rem; align-items: center; }
 .media-split__text p { color: var(--text); font-size: 1.1rem; max-width: 40rem; }
 .media-split__text .section-title { margin-bottom: 1.5rem; }
@@ -429,6 +440,12 @@ fieldset:disabled .field label, fieldset:disabled .field--check label { color: v
 .form-status { margin: 0; font-size: .95rem; color: var(--text); }
 .form-status.is-success { color: #9FD8B0; }
 .form-status.is-error { color: #FF9C8A; }
+
+.contact-card { background: var(--surface); border: 1px solid var(--line); border-top: 2px solid var(--gold); border-radius: var(--radius); padding: clamp(1.75rem, 4vw, 2.75rem); }
+.contact-card .channels-empty { margin: 0; }
+.channel__primary { font-family: var(--font-sans); font-size: clamp(1.4rem, 1.2rem + 1vw, 1.9rem); font-weight: 600; letter-spacing: .01em; font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+.contact-soon { display: flex; align-items: center; gap: .6rem; margin: 1.75rem 0 0; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--text); font-size: .98rem; }
+.contact-soon .icon { color: var(--gold); }
 
 /* ---------- Créditos ---------- */
 .credits { list-style: none; display: grid; gap: .75rem; }

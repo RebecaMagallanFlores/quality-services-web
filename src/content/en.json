@@ -3,7 +3,6 @@
   "htmlLang": "en",
   "ogLocale": "en_US",
   "languageName": "English",
-
   "slugs": {
     "home": "",
     "about": "about",
@@ -13,7 +12,6 @@
     "contact": "contact",
     "credits": "photo-credits"
   },
-
   "nav": {
     "home": "Home",
     "about": "About",
@@ -22,7 +20,6 @@
     "faq": "FAQ",
     "contact": "Contact"
   },
-
   "ui": {
     "skip": "Skip to main content",
     "menu": "Menu",
@@ -47,7 +44,6 @@
       "slide": "Image {n} of {total}"
     }
   },
-
   "pages": {
     "home": {
       "title": "Quality & Services LLC | Real estate with personalized attention",
@@ -82,7 +78,6 @@
       "description": "The page you are looking for does not exist or has moved."
     }
   },
-
   "home": {
     "hero": {
       "eyebrow": "Real estate · Personalized attention",
@@ -92,10 +87,26 @@
       "secondary": "See how we work"
     },
     "slides": [
-      { "image": "hero-dusk", "alt": "Contemporary two-story home with large lit windows at dusk", "position": "50% 60%" },
-      { "image": "hero-villa", "alt": "White modern villa with a pool and outdoor lounge area", "position": "50% 55%" },
-      { "image": "hero-living", "alt": "Bright living room with a leather sofa and floor-to-ceiling windows", "position": "50% 50%" },
-      { "image": "hero-pool", "alt": "Single-story modern home with a pool and lounge chairs", "position": "50% 55%" }
+      {
+        "image": "hero-dusk",
+        "alt": "Contemporary two-story home with large lit windows at dusk",
+        "position": "50% 60%"
+      },
+      {
+        "image": "hero-villa",
+        "alt": "White modern villa with a pool and outdoor lounge area",
+        "position": "50% 55%"
+      },
+      {
+        "image": "hero-living",
+        "alt": "Bright living room with a leather sofa and floor-to-ceiling windows",
+        "position": "50% 50%"
+      },
+      {
+        "image": "hero-pool",
+        "alt": "Single-story modern home with a pool and lounge chairs",
+        "position": "50% 55%"
+      }
     ],
     "intro": {
       "kicker": "Who we are",
@@ -119,7 +130,12 @@
     "process": {
       "kicker": "How we work",
       "title": "A clear process, from the first conversation",
-      "link": "See the full process"
+      "link": "See the full process",
+      "image": {
+        "image": "process-kitchen",
+        "alt": "Bright modern kitchen with an island and a large window facing the garden",
+        "position": "50% 50%"
+      }
     },
     "cta": {
       "title": "Let's talk about what you're looking for",
@@ -127,12 +143,14 @@
       "button": "Contact us"
     }
   },
-
   "about": {
     "kicker": "About us",
     "title": "Quality & Services LLC",
     "lead": "A real estate company that puts personal attention, transparency and follow-through at the center of its work.",
-    "image": { "image": "about-architecture", "alt": "Low-angle view of a white residential building against the sky" },
+    "image": {
+      "image": "about-architecture",
+      "alt": "Low-angle view of a white residential building against the sky"
+    },
     "story": {
       "title": "Who we are",
       "body": [
@@ -143,9 +161,18 @@
     "approach": {
       "title": "Our approach to service",
       "items": [
-        { "title": "One-to-one attention", "text": "You speak with people who know your case and keep track of it." },
-        { "title": "Clear information", "text": "We explain each stage in plain language and answer questions as they come up." },
-        { "title": "Consistent follow-through", "text": "We keep you informed so you always know where things stand." }
+        {
+          "title": "One-to-one attention",
+          "text": "You speak with people who know your case and keep track of it."
+        },
+        {
+          "title": "Clear information",
+          "text": "We explain each stage in plain language and answer questions as they come up."
+        },
+        {
+          "title": "Consistent follow-through",
+          "text": "We keep you informed so you always know where things stand."
+        }
       ]
     },
     "mission": {
@@ -159,15 +186,33 @@
     "valuesTitle": "Our values",
     "valuesLead": "Five principles that shape how we work with every client."
   },
-
   "values": [
-    { "key": "integrity", "title": "Integrity", "text": "We act honestly and tell you what we know — and what we don't." },
-    { "key": "transparency", "title": "Transparency", "text": "We share information openly and explain each step before it happens." },
-    { "key": "commitment", "title": "Commitment", "text": "We follow through on what we agree to and keep you informed along the way." },
-    { "key": "excellence", "title": "Excellence", "text": "We take care with the details, from the first conversation to the last document." },
-    { "key": "attention", "title": "Personalized attention", "text": "We listen first and adapt our support to your situation, not the other way around." }
+    {
+      "key": "integrity",
+      "title": "Integrity",
+      "text": "We act honestly and tell you what we know — and what we don't."
+    },
+    {
+      "key": "transparency",
+      "title": "Transparency",
+      "text": "We share information openly and explain each step before it happens."
+    },
+    {
+      "key": "commitment",
+      "title": "Commitment",
+      "text": "We follow through on what we agree to and keep you informed along the way."
+    },
+    {
+      "key": "excellence",
+      "title": "Excellence",
+      "text": "We take care with the details, from the first conversation to the last document."
+    },
+    {
+      "key": "attention",
+      "title": "Personalized attention",
+      "text": "We listen first and adapt our support to your situation, not the other way around."
+    }
   ],
-
   "services": {
     "kicker": "Services",
     "title": "How we can support you",
@@ -198,21 +243,34 @@
     "ctaTitle": "Not sure where to start?",
     "ctaBody": "Tell us what you have in mind. We will listen and let you know the next step."
   },
-
   "process": {
     "kicker": "How we work",
     "title": "A simple process, centered on you",
     "lead": "Four steps that keep things clear from the first conversation onward.",
-    "image": { "image": "process-kitchen", "alt": "Modern kitchen with an island and a large window facing the garden" },
+    "image": {
+      "image": "process-kitchen",
+      "alt": "Modern kitchen with an island and a large window facing the garden"
+    },
     "steps": [
-      { "title": "First contact", "text": "You reach out through any of our available channels and tell us briefly what you have in mind." },
-      { "title": "Understanding your needs", "text": "We talk about your goals, priorities, timing and any conditions that matter to you." },
-      { "title": "Presenting options", "text": "Based on what we learned, we share options and information so you can compare them calmly." },
-      { "title": "Staying with you", "text": "We remain available, keep you informed and help you understand each step as it comes." }
+      {
+        "title": "First contact",
+        "text": "You reach out through any of our available channels and tell us briefly what you have in mind."
+      },
+      {
+        "title": "Understanding your needs",
+        "text": "We talk about your goals, priorities, timing and any conditions that matter to you."
+      },
+      {
+        "title": "Presenting options",
+        "text": "Based on what we learned, we share options and information so you can compare them calmly."
+      },
+      {
+        "title": "Staying with you",
+        "text": "We remain available, keep you informed and help you understand each step as it comes."
+      }
     ],
     "disclaimer": "Every process is different. Timelines and outcomes depend on factors such as market conditions and the parties involved, so we do not promise specific results."
   },
-
   "faq": {
     "kicker": "FAQ",
     "title": "Frequently asked questions",
@@ -244,12 +302,14 @@
       }
     ]
   },
-
   "contact": {
     "kicker": "Contact",
     "title": "Let's talk",
     "lead": "Tell us about your situation and we will let you know how we can help.",
-    "image": { "image": "contact-aerial", "alt": "Aerial view of a residential neighborhood with tree-lined streets" },
+    "image": {
+      "image": "contact-aerial",
+      "alt": "Aerial view of a residential neighborhood with tree-lined streets"
+    },
     "channelsTitle": "Contact details",
     "labels": {
       "email": "Email",
@@ -260,16 +320,20 @@
       "serviceArea": "Service area",
       "social": "Social media"
     },
-    "noChannels": "Our direct contact details are being finalized and will be published on this page soon.",
+    "noChannels": "Our contact details will be available on this page soon.",
     "form": {
       "title": "Send us a message",
-      "disabledNotice": "The online form is not active yet, so messages cannot be sent from this page for now.",
       "name": "Full name",
       "email": "Email",
       "phone": "Phone (optional)",
       "topic": "What can we help you with?",
       "topicPlaceholder": "Select an option",
-      "topics": ["General inquiry", "I'm looking for a property", "I have a property", "Other"],
+      "topics": [
+        "General inquiry",
+        "I'm looking for a property",
+        "I have a property",
+        "Other"
+      ],
       "message": "Message",
       "consent": "I agree that Quality & Services LLC may use this information to respond to my inquiry.",
       "required": "Required",
@@ -283,9 +347,9 @@
         "consent": "Please confirm to continue.",
         "summary": "Please review the highlighted fields."
       }
-    }
+    },
+    "moreSoon": "More ways to reach us will be available soon."
   },
-
   "credits": {
     "title": "Photo credits",
     "lead": "The photographs on this website are illustrative. They come from Unsplash and are used under the Unsplash License. They do not show properties offered by Quality & Services LLC.",
@@ -294,7 +358,6 @@
     "license": "Unsplash License",
     "usedFor": "Used in"
   },
-
   "notFound": {
     "code": "404",
     "title": "We couldn't find this page",
@@ -302,7 +365,6 @@
     "home": "Back to home",
     "contact": "Contact"
   },
-
   "footer": {
     "tagline": "Real estate with personalized attention.",
     "explore": "Explore",

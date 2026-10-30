@@ -5,7 +5,7 @@ El sitio no publica ningún dato que no haya sido confirmado. Todo lo siguiente 
 ## 1. Contacto (`src/site.config.json → contact`)
 
 - [ ] Correo electrónico de contacto
-- [ ] Teléfono (formato internacional)
+- [x] Teléfono: +1 (915) 343-8519 (confirmado y publicado en Contacto)
 - [ ] WhatsApp (solo si el número tiene WhatsApp confirmado)
 - [ ] Dirección de oficina (solo si se atiende al público en ella)
 - [ ] Horario de atención (EN y ES)
@@ -30,7 +30,7 @@ Los cuatro servicios publicados son **generales y prudentes** (asesoría, orient
 
 ## 4. Formulario de contacto
 
-- [ ] Correo o servicio que recibirá los mensajes (ver README → Formulario de contacto).
+- [ ] Correo o servicio que recibirá los mensajes (ver README → Formulario de contacto). Mientras no exista, el formulario no se publica y Contacto muestra un aviso de que habrá más medios próximamente.
 - [ ] Aviso de privacidad revisado por un profesional (obligatorio antes de activar el formulario).
 
 ## 5. Publicación

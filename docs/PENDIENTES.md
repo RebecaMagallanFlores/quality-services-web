@@ -30,7 +30,7 @@ Los cuatro servicios publicados son **generales y prudentes** (asesoría, orient
 
 ## 4. Formulario de contacto
 
-- [ ] Correo o servicio que recibirá los mensajes (ver README → Formulario de contacto). Mientras no exista, el formulario no se publica y Contacto muestra un aviso de que habrá más medios próximamente.
+- [ ] Correo o servicio que recibirá los mensajes (ver README → Formulario de contacto). Mientras no exista, el formulario no se publica y Contacto muestra solo el teléfono.
 - [ ] Aviso de privacidad revisado por un profesional (obligatorio antes de activar el formulario).
 
 ## 5. Publicación

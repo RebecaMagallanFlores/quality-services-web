@@ -31,7 +31,7 @@
   },
   "form": {
     "endpoint": null,
-    "_endpoint": "URL de un servicio de recepción de formularios que acepte POST (p. ej. Formspree, Web3Forms, Basin). Mientras sea null, el formulario no se publica (queda preparado en el código) y la página de contacto muestra un aviso.",
+    "_endpoint": "URL de un servicio de recepción de formularios que acepte POST (p. ej. Formspree, Web3Forms, Basin). Mientras sea null, el formulario no se publica (queda preparado en el código) y la página de contacto muestra solo los medios configurados.",
     "accessKeyField": null,
     "accessKey": null,
     "_accessKey": "Solo para servicios que requieren una clave PÚBLICA en el formulario (p. ej. Web3Forms: accessKeyField = \"access_key\"). Nunca coloques aquí contraseñas ni tokens privados."

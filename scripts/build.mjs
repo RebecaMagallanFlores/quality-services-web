@@ -191,8 +191,6 @@ ${body}
     </div>
     <div class="container site-footer__legal">
       <p>© ${year} ${esc(config.companyName)}. ${esc(t.footer.rights)}</p>
-      <p>${esc(t.footer.illustrative)} <a href="${href(routeOf(lang, 'credits'))}">${esc(t.footer.credits)}</a>.</p>
-      <p>${esc(t.footer.privacy)}</p>
     </div>
   </footer>
   <script src="${assetHref('main.js')}" defer></script>

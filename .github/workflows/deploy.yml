@@ -28,18 +28,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # La URL y la ruta base salen de GitHub Pages: funcionan igual con
-      # usuario.github.io/repositorio o con un dominio propio configurado en Settings → Pages.
+      # El dominio (https://qualityservicesqs.com) y la ruta base (/) se toman de
+      # src/site.config.json. No se usan base_url/base_path de GitHub Pages para que
+      # el nombre del repositorio nunca se agregue como prefijo de las rutas.
       - name: Compilar
         run: node scripts/build.mjs
-        env:
-          SITE_URL: ${{ steps.pages.outputs.base_url }}
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
-      - name: Verificar enlaces y recursos
+      - name: Verificar enlaces, recursos y ausencia del prefijo del repositorio
         run: node scripts/check.mjs
-        env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -2,7 +2,7 @@
 
 Sitio informativo bilingüe (inglés / español) de **Quality & Services LLC**.
 
-**Sitio publicado:** https://rebecamagallanflores.github.io/quality-services-web/
+**Sitio publicado:** https://qualityservicesqs.com/ (inglés: `/en/`, español: `/es/`)
  Es un sitio estático: HTML, CSS y JavaScript generados por un script de Node.js **sin dependencias**, publicado con **GitHub Pages** mediante GitHub Actions. No usa Vercel, Supabase, servidor, base de datos, cookies ni rastreadores.
 
 ## Requisitos
@@ -17,20 +17,14 @@ node scripts/check.mjs          # verifica enlaces, recursos, alt, títulos y de
 npx serve dist                  # vista previa local (o cualquier servidor estático)
 ```
 
-Para simular la publicación dentro de un repositorio (`usuario.github.io/repositorio`):
-
-```bash
-BASE_PATH=/quality-services-web SITE_URL=https://usuario.github.io/quality-services-web node scripts/build.mjs
-```
-
-En Windows (PowerShell): `$env:BASE_PATH="/quality-services-web"; node scripts/build.mjs`
+El dominio principal (`siteUrl`) y la ruta base (`basePath: "/"`) están fijados en `src/site.config.json`. Las variables `SITE_URL` y `BASE_PATH` solo sirven para pruebas locales; el flujo de GitHub Actions no las usa, así que nunca agrega el nombre del repositorio a las rutas.
 
 ## Publicar en GitHub Pages
 
 1. Sube el proyecto a la rama `main`.
 2. En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. Cada `push` a `main` ejecuta `.github/workflows/deploy.yml`: compila, verifica y publica.
-4. **Dominio propio (opcional):** en *Settings → Pages → Custom domain* escribe el dominio y configura el DNS que indique GitHub. El flujo detecta la URL y la ruta base automáticamente; no hay que cambiar el código.
+4. **Dominio propio:** `qualityservicesqs.com` (DNS en Spaceship), configurado en *Settings → Pages → Custom domain* con HTTPS obligatorio. El archivo `public/CNAME` documenta el dominio. Si algún día cambia, actualiza `siteUrl` en `src/site.config.json`, `public/CNAME` y el dominio en GitHub.
 
 > Publicar Pages desde un repositorio **privado** requiere un plan de pago de GitHub (Pro, Team o Enterprise). Con el plan gratuito, el repositorio debe ser público para usar Pages.
 

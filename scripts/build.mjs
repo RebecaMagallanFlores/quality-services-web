@@ -1,8 +1,9 @@
 // Generador estático de Quality & Services LLC — sin dependencias externas (solo Node.js 18+).
 // Uso: node scripts/build.mjs
 // Variables de entorno opcionales:
-//   SITE_URL   URL pública sin barra final (p. ej. https://usuario.github.io/repo o https://www.dominio.com)
-//   BASE_PATH  Ruta base donde se sirve el sitio ("/" para dominio propio, "/repo" para GitHub Pages de proyecto)
+//   SITE_URL   Sobrescribe siteUrl de src/site.config.json (solo para pruebas)
+//   BASE_PATH  Sobrescribe basePath de src/site.config.json (solo para pruebas)
+// Por defecto el sitio se genera para https://qualityservicesqs.com en la raíz "/".
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -18,7 +19,7 @@ const content = { en: readJSON('src/content/en.json'), es: readJSON('src/content
 const LANGS = config.languages;
 
 // ---------- Rutas ----------
-let BASE = (process.env.BASE_PATH ?? '/').trim();
+let BASE = (process.env.BASE_PATH || config.basePath || '/').trim();
 if (!BASE.startsWith('/')) BASE = '/' + BASE;
 if (!BASE.endsWith('/')) BASE += '/';
 const SITE_URL = (process.env.SITE_URL || config.siteUrl || '').replace(/\/+$/, '') || null;

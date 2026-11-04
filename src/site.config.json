@@ -6,8 +6,9 @@
     "en",
     "es"
   ],
-  "siteUrl": null,
-  "_siteUrl": "URL pública sin barra final, p. ej. https://www.ejemplo.com o https://usuario.github.io/repositorio. En GitHub Actions se toma automáticamente de GitHub Pages si se deja en null.",
+  "siteUrl": "https://qualityservicesqs.com",
+  "basePath": "/",
+  "_siteUrl": "Dominio principal sin barra final. basePath es la ruta donde se sirve el sitio: \"/\" con dominio propio. Solo se pueden sobrescribir de forma explícita con las variables SITE_URL y BASE_PATH (p. ej. para pruebas locales); GitHub Actions no las define.",
   "contact": {
     "email": null,
     "phone": "+1 (915) 343-8519",

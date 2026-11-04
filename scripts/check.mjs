@@ -6,7 +6,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
-let BASE = (process.env.BASE_PATH ?? '/').trim();
+const cfg = JSON.parse(readFileSync(join(root, 'src/site.config.json'), 'utf8'));
+let BASE = (process.env.BASE_PATH || cfg.basePath || '/').trim();
 if (!BASE.startsWith('/')) BASE = '/' + BASE;
 if (!BASE.endsWith('/')) BASE += '/';
 
@@ -38,6 +39,10 @@ for (const file of html) {
       if (!existsSync(target)) problems.push(`${rel}: enlace roto ${u}`);
     }
   }
+}
+// Con dominio propio en la raíz, ninguna página debe contener el nombre del repositorio como ruta
+if (BASE === '/') for (const file of walk(dist).filter((f) => /\.(html|xml|txt|webmanifest|css|js)$/.test(f))) {
+  if (readFileSync(file, 'utf8').includes('/quality-services-web/')) problems.push(`${file.slice(dist.length)}: contiene el prefijo /quality-services-web/`);
 }
 console.log(`Revisados ${html.length} HTML y ${refs} referencias internas (BASE_PATH=${BASE}).`);
 if (problems.length) { console.error(problems.join('\n')); process.exit(1); }
